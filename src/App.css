@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+ 
+.content {
+  padding: 20px;
+}
+ 
+.header {
+  padding: 10px;
+  background: #edf2f4;
+  border-bottom: 1px solid #999;
+}
+.header a {
+  color: #0072ff;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.header a:hover {
+  color: #8a0f53;
+}
+.header small {
+  color: #666;
+}
+.header .active {
+  color: #2c7613;
+}
+
+.App_1 {
+  width: 40vw;
+  position: absolute;
+  top: 170px;
+  right: 30vw;
+  margin: auto;
+  background-image:linear-gradient(white, grey);
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid black;
+  padding: 20px;
+  
+}
+
+.App_1 > * {
+  margin-top: 10px;
+  margin: auto;
+}
+
+.inputDiv1 {
+  padding-left: 9px;
+  height: 30px;
+  width: 200px;
+  margin: 0px auto;
+}
+
+.buttonDiv{
+  padding: 20px;
+}
+
+.pTag{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.buttonBuy_1{
+  background-color: black;
+  color: azure;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.buttonBuy_1:disabled{
+  color: #666;
+}
+
+.buttonBuy_1:active {
+  background-color: white;
+  color: black;
+}
+
+.bodyDiv{
+  width: 100vw;
+  background-image: url('../public/photo-1586717791821-3f44a563fa4c-copy-6.jpg');
+  height: 90vh;
+}
+
+.buttonBuy_one{
+  background-color: black;
+  color: azure;
+  margin-top: 20px;
+  height: 30px;
+}
+
+.buttonBuy_one:disabled, .buttonBuy_two:disabled{
+  color: #666;
+}
+
+.buttonBuy_one:active,.buttonBuy_two:active {
+  background-color: white;
+  color: black;
+}
+
+.buttonBuy_two{
+  background-color: black;
+  color: azure;
+  margin:25px 45px;
+  height: 30px;
+}
+
+.emailValidation{
+  color: red;
+  margin-top: 20px;
+}
+
+.inputRed{
+  background-color: tomato;
+  padding-left: 9px;
+  height: 30px;
+  width: 200px;
+  margin: 0px auto;
+}
+
+.inputGreen{
+  background-color: turquoise;
+  padding-left: 9px;
+  height: 30px;
+  width: 200px;
+  margin: 0px auto;
+}
+
+

@@ -1,0 +1,345 @@
+.card__image {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+  }
+
+  .mainApp{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+
+  }
+
+  
+  .card__details {
+    margin: auto;
+  }
+  
+  .card__details > .span1 {
+    font-weight: bold;
+  }
+  
+  .card__details > .span2{
+    color: grey;
+    padding-left: 7px;
+  }
+  
+  .card__details > .span3{
+    padding-left: 7px;
+    color: green;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .card__details > .title{
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(165, 165, 165)
+  }
+
+  
+  .productDet{
+    position: relative;
+    transition: 0.5s;
+    height: 70px;
+  }
+
+  .card__size{
+    display: flex;
+  }
+  
+  .productDet > .card__size {
+    opacity: 0;
+    position:absolute;
+  }
+  
+  .card:hover .productDet{
+    transition: 0.5s;
+    transform: translateY(-20%);
+  }
+  
+  .card:hover .productDet .card__size{
+    opacity: 1;
+    transition: 1.75s;
+  }
+  
+  .card > .dots {
+    width: 10px;
+    height: 10px;
+  }
+
+  .buttonBuy_two{
+    background-color: black;
+    color: azure;
+    height: 28px;
+    width: 40px;
+    margin:20px auto;
+  }
+  
+  .buttonBuy {
+    margin-left:15px;
+    background-color: black;
+    color: azure;
+    height: 20px;
+    margin-top: 15px;
+  }
+
+  .buttonBuy_one{
+    margin-left:43px;
+    background-color: brown;
+    color: azure;
+    height: 20px;
+    margin-top: 15px;
+  }
+  
+  .buttonBuy:active {
+    background-color: white;
+    color: black;
+  }
+
+
+  .App{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: auto;
+  }
+
+  .hThree {
+    margin-left: 30px;
+  }
+
+  .headerSign{
+    display: flex;
+    position: relative;
+  }
+
+  .logoutBtn{
+    height: 30px;
+    margin: auto 0px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+
+  .card{
+    margin-left: 5vw;
+  }
+
+
+  .card > .card__image > img {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+  }
+  
+  .card__heart{
+    float: right;
+    color:lightgrey;
+  }
+  
+  .card__details>p ,  .card__details>span{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .spaceRequired{
+    margin-top: 15px;
+  }
+  
+  .card__details > .span1 {
+    font-weight: bold;
+  }
+  
+  .card__details > .span2{
+    color: grey;
+    padding-left: 7px;
+    text-decoration: line-through;
+  }
+  
+  .card__details > .span3{
+    padding-left: 7px;
+    color: green;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .card__details > .title{
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(165, 165, 165)
+  }
+  
+  .card{
+    padding:20px 20px 20px 0px;
+    cursor: pointer;
+  }
+  
+  .productDet{
+    position: relative;
+    transition: 0.5s;
+    height: 70px;
+  }
+  
+  .productDet > .card__size {
+    opacity: 0;
+    position:absolute;
+  }
+  
+  .card:hover .productDet{
+    transition: 0.5s;
+    transform: translateY(-20%);
+  }
+  
+  .card:hover .productDet .card__size{
+    opacity: 1;
+    transition: 1.75s;
+  }
+  
+  .card > .dots {
+    width: 10px;
+    height: 10px;
+    color: gray;
+  }
+
+  .one{
+    background-color: darkred;
+  }
+  
+  .twobtn{
+    background-color: forestgreen;
+  }
+  
+.inputCart {
+  max-width: 50px;
+}
+
+.buttonBuy:disabled {
+  color: grey;
+}
+
+th{
+  min-width: 150px;
+}
+
+.nameCart{
+  align-items: center;
+}
+
+th{
+  font-size: 20px;
+}
+
+td p {
+  width: 110px;
+  margin: auto;
+}
+
+td img {
+  height: 100px;
+  object-fit: contain;
+}
+
+
+.inputCart {
+  height: 20px;
+  width: 40px;
+  font-size: 24px;
+  padding: 4px 6px 6px 6px;
+}
+
+.buttonQty {
+  height: 20px;
+  padding: 0px 11px 30px 12px;
+  margin: 0px 5px;
+}
+
+.buttonQty p {
+  width: 10px;
+  font-size: 24px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.grantTotalP{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.totalTd{
+  padding: 20px;
+  margin-top: 50px;
+  background-color: darkgrey;
+}
+
+.itemName {
+  width: 40px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.costTd{
+  width: 70px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.totalTd{
+  width: 220px;
+  margin: 30px 0px 30px 48vw;
+}
+
+.totalCostTr{
+  display: flex;
+}
+
+
+
+@media all and (max-width: 1000px) {
+.firstRow{
+  display: none;
+}
+
+.cartItem{
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  margin-left: 75px;
+}
+
+.itemName , .costTd{
+  margin-top: 20px;
+}
+
+
+td{
+  width: 150px;
+}
+
+tbody{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.totalCostTr{
+  display: flex;
+}
+
+.totalTd{
+  margin: 30px 0px 30px 17vw;
+}
+
+}
+
+@media all and (max-width: 600px) {
+  .totalTd{
+    margin : 30px auto
+  }
+}
