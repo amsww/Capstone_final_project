@@ -41,15 +41,19 @@ code {
 .App_1 {
   width: 40vw;
   position: absolute;
-  top: 170px;
   right: 30vw;
-  margin: auto;
+  margin: 25px auto;
   background-image:linear-gradient(white, grey);
   display: flex;
   flex-direction: column;
   border: 0.5px solid black;
   padding: 20px;
   
+}
+
+.App_Change {
+  margin: 0px 23vw;
+  background-color: #2c7613;
 }
 
 .App_1 > * {
@@ -77,7 +81,12 @@ code {
   background-color: black;
   color: azure;
   height: 30px;
-  margin-top: 15px;
+  margin: 15px;
+}
+
+.centreButton{
+  width: 130px;
+  margin-left: 20%;
 }
 
 .buttonBuy_1:disabled{
@@ -124,7 +133,7 @@ code {
 }
 
 .inputRed{
-  background-color: tomato;
+  background-color: rgba(255, 11, 7, 0.22);
   padding-left: 9px;
   height: 30px;
   width: 200px;
@@ -132,11 +141,10 @@ code {
 }
 
 .inputGreen{
-  background-color: turquoise;
+  background-color: rgba(81, 190, 117, 0.27);
   padding-left: 9px;
   height: 30px;
   width: 200px;
   margin: 0px auto;
 }
-
 

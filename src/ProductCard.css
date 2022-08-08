@@ -52,6 +52,7 @@
   .productDet > .card__size {
     opacity: 0;
     position:absolute;
+    width: 480px;
   }
   
   .card:hover .productDet{
@@ -72,9 +73,9 @@
   .buttonBuy_two{
     background-color: black;
     color: azure;
-    height: 28px;
+    height: 35px;
     width: 40px;
-    margin:20px auto;
+    margin: 15px auto;
   }
   
   .buttonBuy {

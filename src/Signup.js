@@ -114,16 +114,13 @@ function Signup(props) {
                 className={({ isActive }) => (isActive ? 'active' : 'inactive')}
                 to="/changePass" >Change Password</NavLink>
           </div>
-          <div className="content">           
-         
-          </div>
         </div>
         <div className='bodyDiv'>
         <div className="App_1" >
       <div className='emailDiv'>
        <p className='pTag'> Email</p>
       </div>
-        <input className='inputDiv1'
+        <input 
          className={inputStatus.email ? emailError == "" ? "inputGreen":"inputRed" :"inputDiv1"}
         type="email" name='email' onChange={(e) => validateEmail(e)} required />
        {emailError !== '' && <p className='emailValidation'>{emailError}</p>} 
@@ -137,7 +134,7 @@ function Signup(props) {
       <div >
        <p className='pTag'> Password</p>
       </div>
-        <input className='inputDiv1' 
+        <input 
         type="password" 
         name='password' 
         className={inputStatus.password ? errorPass == "" ? "inputGreen":"inputRed" :"inputDiv1"}

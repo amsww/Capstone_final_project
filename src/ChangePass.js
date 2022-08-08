@@ -1,6 +1,7 @@
 import React,{useEffect, useState} from 'react';
 import {NavLink } from 'react-router-dom';
 import jwt_decode from 'jwt-decode';
+import './App.css'
 import { useNavigate } from 'react-router-dom';
 import validator from 'validator'
 
@@ -141,7 +142,7 @@ const ChangePass = () => {
                 to="/changePass" >Change Password</NavLink>
           </div>
           <div className='bodyDiv'>
-              <div className="App_Change" >
+              <div className="App_1" >
                 <div className='emailDiv'>
                 <p className='pTag'> Email</p>
                 </div>
@@ -184,7 +185,7 @@ const ChangePass = () => {
       <div >
       <button
             disabled={!(emailError =="" && errorPass =="" && errorPassNew =="" && buttonValue)}
-            className='buttonBuy_two'
+            className='buttonBuy_1 centreButton'
             onClick={()=> changePassword()} >Change Password </button>
       </div>
         </div>
